@@ -12,6 +12,12 @@
 		96A9C7BD1D1BB04C00270B3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A9C7BB1D1BB04C00270B3C /* Main.storyboard */; };
 		96A9C7BF1D1BB04C00270B3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A9C7BE1D1BB04C00270B3C /* Assets.xcassets */; };
 		96A9C7C21D1BB04C00270B3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A9C7C01D1BB04C00270B3C /* LaunchScreen.storyboard */; };
+		96A9C7CA1D1BB3FC00270B3C /* TopLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9C7C91D1BB3FC00270B3C /* TopLineViewController.swift */; };
+		96A9C7CC1D1BB48100270B3C /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9C7CB1D1BB48100270B3C /* HotViewController.swift */; };
+		96A9C7CE1D1BB52700270B3C /* VedioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9C7CD1D1BB52700270B3C /* VedioViewController.swift */; };
+		96A9C7D01D1BB59500270B3C /* SocietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9C7CF1D1BB59500270B3C /* SocietyViewController.swift */; };
+		96A9C7D21D1BB5FD00270B3C /* ReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9C7D11D1BB5FD00270B3C /* ReaderViewController.swift */; };
+		96A9C7D41D1BB64C00270B3C /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A9C7D31D1BB64C00270B3C /* ScienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		96A9C7BE1D1BB04C00270B3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A9C7C11D1BB04C00270B3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A9C7C31D1BB04C00270B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A9C7C91D1BB3FC00270B3C /* TopLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLineViewController.swift; sourceTree = "<group>"; };
+		96A9C7CB1D1BB48100270B3C /* HotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
+		96A9C7CD1D1BB52700270B3C /* VedioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VedioViewController.swift; sourceTree = "<group>"; };
+		96A9C7CF1D1BB59500270B3C /* SocietyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocietyViewController.swift; sourceTree = "<group>"; };
+		96A9C7D11D1BB5FD00270B3C /* ReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReaderViewController.swift; sourceTree = "<group>"; };
+		96A9C7D31D1BB64C00270B3C /* ScienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				96A9C7BE1D1BB04C00270B3C /* Assets.xcassets */,
 				96A9C7C01D1BB04C00270B3C /* LaunchScreen.storyboard */,
 				96A9C7C31D1BB04C00270B3C /* Info.plist */,
+				96A9C7C91D1BB3FC00270B3C /* TopLineViewController.swift */,
+				96A9C7CB1D1BB48100270B3C /* HotViewController.swift */,
+				96A9C7CD1D1BB52700270B3C /* VedioViewController.swift */,
+				96A9C7CF1D1BB59500270B3C /* SocietyViewController.swift */,
+				96A9C7D11D1BB5FD00270B3C /* ReaderViewController.swift */,
+				96A9C7D31D1BB64C00270B3C /* ScienceViewController.swift */,
 			);
 			path = NewsHomeDemo;
 			sourceTree = "<group>";
@@ -96,6 +114,7 @@
 				TargetAttributes = {
 					96A9C7B31D1BB04C00270B3C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6V3H2BMVZC;
 					};
 				};
 			};
@@ -135,8 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A9C7CE1D1BB52700270B3C /* VedioViewController.swift in Sources */,
+				96A9C7CC1D1BB48100270B3C /* HotViewController.swift in Sources */,
+				96A9C7D21D1BB5FD00270B3C /* ReaderViewController.swift in Sources */,
+				96A9C7CA1D1BB3FC00270B3C /* TopLineViewController.swift in Sources */,
 				96A9C7BA1D1BB04C00270B3C /* ViewController.swift in Sources */,
 				96A9C7B81D1BB04C00270B3C /* AppDelegate.swift in Sources */,
+				96A9C7D01D1BB59500270B3C /* SocietyViewController.swift in Sources */,
+				96A9C7D41D1BB64C00270B3C /* ScienceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NewsHomeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulja.NewsHomeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NewsHomeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.soulja.NewsHomeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
